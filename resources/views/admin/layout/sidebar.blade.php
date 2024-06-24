@@ -9,15 +9,15 @@
     <div class="menu-items">
         <ul class="nav-links">
             <li>
-                <a class="active" href="{{ route('admin.dashboard') }}">
+                <a class="{{ request()->routeIs('admin.dashboard') ? 'active' : '' }}" href="{{ route('admin.dashboard') }}">
                     <i class="uil uil-estate"></i>
                     <span class="link-name">Dahsboard</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a class="{{ request()->routeIs('admin.services.*') ? 'active' : '' }}" href="{{ route('admin.services.index') }}">
                     <i class="uil uil-files-landscapes"></i>
-                    <span class="link-name">Content</span>
+                    <span class="link-name">Services</span>
                 </a>
             </li>
             <li>
