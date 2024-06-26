@@ -12,6 +12,7 @@ class ServiceController extends Controller
     {
         $services = Service::orderBy('id', 'desc')->get();
         return view('admin.service.index', compact('services'));
+        
     }
 
     public function create()
