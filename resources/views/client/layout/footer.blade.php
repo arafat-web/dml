@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-3 width-23 mb-30">
                     <div class="mb-20 bg-1 d-flex justify-content-center rounded"><img
-                            src="assets/imgs/template/footer-logo.png" width="200px" alt="DML Express"></div>
+                            src="{{asset('client/imgs/template/footer-logo.png')}}" width="200px" alt="DML Express"></div>
                     <p class="font-xs mb-20 color-white">We fuse our global network with our depth of expertise in
                         air freight,
                         ocean freight, railway transportation, trucking, and multimode transportation, also we are
@@ -56,15 +56,15 @@
                     <h5 class="mb-10 color-brand-1">Gallery</h5>
                     <div class="galleries-footer">
                         <ul class="list-imgs">
-                            <li> <img src="assets/imgs/page/homepage1/gal1.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal2.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal3.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal4.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal5.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal6.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal7.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal8.png" alt="DML Express"></li>
-                            <li> <img src="assets/imgs/page/homepage1/gal9.png" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal1.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal2.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal3.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal4.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal5.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal6.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal7.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal8.png')}}" alt="DML Express"></li>
+                            <li> <img src="{{asset('client/imgs/page/homepage1/gal9.png')}}" alt="DML Express"></li>
                         </ul>
                     </div>
                 </div>

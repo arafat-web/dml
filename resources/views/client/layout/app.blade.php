@@ -36,8 +36,8 @@
     <meta name="linkedin:site" content="https://www.linkedin.com/company/dmlexpressbd/">
 
     <!-- Favicon and Stylesheets -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset(client / 'assets/imgs/template/logo.png') }}">
-    <link href="{{ asset(client / 'assets/css/style.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('client/imgs/template/logo.png') }}">
+    <link href="{{ asset('client/css/style.css') }}" rel="stylesheet">
     <meta name="google-site-verification" content="YWCsjbS7Z3JctQp_ktZFv1JBHPNavvLkihpeRQxIjqY" />
 </head>
 
@@ -50,31 +50,36 @@
         </div>
     </div>
 
-    <main class="main">
+    @include('client.layout.header')
+    @include('client.layout.mobile')
 
+    <main class="main">
+        @yield('content')
     </main>
 
-    <script src="assets/js/vendors/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>
-    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendors/waypoints.js"></script>
-    <script src="assets/js/vendors/wow.js"></script>
-    <script src="assets/js/vendors/magnific-popup.js"></script>
-    <script src="assets/js/vendors/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/vendors/select2.min.js"></script>
-    <script src="assets/js/vendors/isotope.js"></script>
-    <script src="assets/js/vendors/scrollup.js"></script>
-    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
-    <script src="assets/js/vendors/noUISlider.js"></script>
-    <script src="assets/js/vendors/slider.js"></script>
+    @include('client.layout.footer')
+
+    <script src="{{ asset('client/js/vendors/modernizr-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/jquery-migrate-3.3.0.min.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/waypoints.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/wow.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/magnific-popup.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/select2.min.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/isotope.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/scrollup.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/noUISlider.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/slider.js') }}"></script>
     <!-- Count down-->
-    <script src="assets/js/vendors/counterup.js"></script>
-    <script src="assets/js/vendors/jquery.countdown.min.js"></script>
+    <script src="{{ asset('client/js/vendors/counterup.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/jquery.countdown.min.js') }}"></script>
     <!-- Count down-->
-    <script src="assets/js/vendors/jquery.elevatezoom.js"></script>
-    <script src="assets/js/vendors/slick.js"></script>
-    <script src="assets/js/main28b5.js?v=2.0.0"></script>
+    <script src="{{ asset('client/js/vendors/jquery.elevatezoom.js') }}"></script>
+    <script src="{{ asset('client/js/vendors/slick.js') }}"></script>
+    <script src="{{ asset('client/js/main28b5.js?v=2.0.0') }}"></script>
 </body>
 
 

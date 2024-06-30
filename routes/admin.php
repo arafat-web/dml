@@ -5,8 +5,8 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ServiceController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [AuthController::class, 'login'])->name('login');
-Route::post('/', [AuthController::class, 'authenticate'])->name('admin.login.post');
+Route::get('/admin/login', [AuthController::class, 'login'])->name('login');
+Route::post('/admin/login', [AuthController::class, 'authenticate'])->name('admin.login.post');
 
 Route::get('/logout', [AuthController::class, 'logout'])->name('admin.logout');
 

@@ -55,7 +55,7 @@
         <div class="main-header">
             <div class="header-left">
                 <div class="header-logo"><a class="d-flex" href="index.html"><img alt="Ecom"
-                            src="assets/imgs/template/logo.png"></a></div>
+                            src="{{asset('client/imgs/template/logo.png')}}"></a></div>
                 <div class="header-nav">
                     <nav class="nav-main-menu d-none d-xl-block">
                         <ul class="main-menu">
@@ -66,7 +66,7 @@
                                 <div class="sub-menu five-col">
                                     <div class="menu-col">
                                         <h6 class="color-brand-2 mb-15">Worldwide Express</h6>
-                                        <div class="menu-image"><img src="assets/imgs/page/homepage1/menu3.png"
+                                        <div class="menu-image"><img src="{{asset('client/imgs/page/homepage1/menu3.png')}}"
                                                 alt="DML Express"></div>
                                         <ul class="megamenu">
                                             <li><a href="services.html">Road Freight</a></li>
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="menu-col">
                                         <h6 class="color-brand-2 mb-15">Sea Forwarding</h6>
-                                        <div class="menu-image"><img src="assets/imgs/page/homepage1/menu1.png"
+                                        <div class="menu-image"><img src="{{asset('client/imgs/page/homepage1/menu1.png')}}"
                                                 alt="DML Express"></div>
                                         <ul class="megamenu">
                                             <li><a href="services.html">Container Shipping</a></li>
@@ -90,7 +90,7 @@
                                     </div>
                                     <div class="menu-col">
                                         <h6 class="color-brand-2 mb-15">Air Freight Forwarding</h6>
-                                        <div class="menu-image"><img src="assets/imgs/page/homepage1/menu2.png"
+                                        <div class="menu-image"><img src="{{asset('client/imgs/page/homepage1/menu2.png')}}"
                                                 alt="DML Express"></div>
                                         <ul class="megamenu">
                                             <li><a href="services.html">General Cargo</a></li>
@@ -102,7 +102,7 @@
                                     </div>
                                     <div class="menu-col">
                                         <h6 class="color-brand-2 mb-15">Railway Logistics</h6>
-                                        <div class="menu-image"><img src="assets/imgs/page/homepage1/menu4.png"
+                                        <div class="menu-image"><img src="{{asset('client/imgs/page/homepage1/menu4.png')}}"
                                                 alt="DML Express"></div>
                                         <ul class="megamenu">
                                             <li><a href="services.html">Rail Freight Transportation</a></li>
@@ -114,7 +114,7 @@
                                     </div>
                                     <div class="menu-col">
                                         <h6 class="color-brand-2 mb-15">Warehouse</h6>
-                                        <div class="menu-image"><img src="assets/imgs/page/homepage1/menu5.png"
+                                        <div class="menu-image"><img src="{{asset('client/imgs/page/homepage1/menu5.png')}}"
                                                 alt="DML Express"></div>
                                         <ul class="megamenu">
                                             <li><a href="services.html">Warehousing</a></li>

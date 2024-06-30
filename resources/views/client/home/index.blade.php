@@ -6,7 +6,7 @@
             <div class="swiper-container swiper-group-1 swiper-banner-1">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="banner-1" style="background-image:url({{asset('client')/assets/imgs/page/homepage1/banner.png}})">
+                        <div class="banner-1" style="background-image:url(client/imgs/page/homepage1/banner.png)">
                             <div class="container">
                                 <div class="row align-items-center">
                                     <div class="col-lg-12">
@@ -31,7 +31,7 @@
                                             <a class="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp"
                                                 href="https://www.youtube.com/watch?v=kCGf5uNE13I"><img
                                                     class="wow animate__animated animate__fadeInUp"
-                                                    src="{{asset('client')/assets/imgs/template/icons/play.svg}}" alt="">How
+                                                    src="{{asset('client/imgs/template/icons/play.svg')}}" alt="">How
                                                 it work ?
                                             </a>
                                         </div>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="banner-1" style="background-image:url(client/assets/imgs/page/homepage1/banner-2.png)">
+                        <div class="banner-1" style="background-image:url(client/imgs/page/homepage1/banner-2.png)">
                             <div class="container">
                                 <div class="row align-items-center">
                                     <div class="col-lg-12">
@@ -66,7 +66,7 @@
                                                 class="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp"
                                                 href="https://www.youtube.com/watch?v=kCGf5uNE13I"><img
                                                     class="wow animate__animated animate__fadeInUp"
-                                                    src="{{asset('client')/assets/imgs/template/icons/play.svg}}" alt="">How
+                                                    src="{{asset('client/imgs/template/icons/play.svg')}}" alt="">How
                                                 it work ?</a>
                                         </div>
                                     </div>
@@ -91,17 +91,17 @@
                     <div class="box-swiper">
                         <div class="swiper-container swiper-group-6 pb-0">
                             <div class="swiper-wrapper wow animate__animated animate__fadeIn">
-                                <div class="swiper-slide"><img src="{{asset('client')/assets/imgs/slider/logo/ups.png}}" width="85px"
+                                <div class="swiper-slide"><img src="{{asset('client/imgs/slider/logo/ups.png')}}" width="85px"
                                         height="43px" alt="DML Express"></div>
-                                <div class="swiper-slide"><img src="{{asset('client')/assets/imgs/slider/logo/dhl.png}}" width="85px"
+                                <div class="swiper-slide"><img src="{{asset('client/imgs/slider/logo/dhl.png')}}" width="85px"
                                         height="43px" alt="DML Express"></div>
-                                <div class="swiper-slide"><img src="{{asset('client')/assets/imgs/slider/logo/fedex.png}}" width="85px"
+                                <div class="swiper-slide"><img src="{{asset('client/imgs/slider/logo/fedex.png')}}" width="85px"
                                         height="33px" alt="DML Express"></div>
-                                <div class="swiper-slide"><img src="{{asset('client')/assets/imgs/slider/logo/truck.png}}" alt="DML Express">
+                                <div class="swiper-slide"><img src="{{asset('client/imgs/slider/logo/truck.png')}}" alt="DML Express">
                                 </div>
-                                <div class="swiper-slide"><img src="{{asset('client')/assets/imgs/slider/logo/saltos.png}}" alt="DML Express">
+                                <div class="swiper-slide"><img src="{{asset('client/imgs/slider/logo/saltos.png')}}" alt="DML Express">
                                 </div>
-                                <div class="swiper-slide"><img src="{{asset('client')/assets/imgs/slider/logo/creati.png}}" alt="DML Express">
+                                <div class="swiper-slide"><img src="{{asset('client/imgs/slider/logo/creati.png')}}" alt="DML Express">
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client')/assets/imgs/page/homepage1/delivery.png}}" alt="DML Express">
+                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/delivery.png')}}" alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Worldwide Express</h5>
@@ -156,7 +156,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client')/assets/imgs/page/homepage1/plane.png}}" alt="DML Express">
+                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/plane.png')}}" alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Air Freight Forwarding</h5>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client')/assets/imgs/page/homepage1/cargo-ship.png}}"
+                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/cargo-ship.png')}}"
                                     alt="DML Express"></div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Ocean Freight</h5>
@@ -198,7 +198,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client')/assets/imgs/page/homepage1/forklift.png}}" alt="DML Express">
+                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/forklift.png')}}" alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Warehouse &amp; Distribution</h5>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client')/assets/imgs/page/homepage1/train.png}}" alt="DML Express">
+                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/train.png')}}" alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Road Freight</h5>
@@ -240,7 +240,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client')/assets/imgs/page/homepage1/worldwide.png}}"
+                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/worldwide.png')}}"
                                     alt="DML Express"></div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Customs Clearance</h5>
@@ -265,7 +265,7 @@
     </section>
     <section class="section mt-85">
         <div class="container">
-            <div class="text-center"><img class="mb-15" src="{{asset('client')/assets/imgs/template/icons/favicon.svg}}" alt="DML Express">
+            <div class="text-center"><img class="mb-15" src="{{asset('client/imgs/template/icons/favicon.svg')}}" alt="DML Express">
                 <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">Delivering Results for
                     Industry
                     Leaders</p>
@@ -276,8 +276,8 @@
                 <div class="col-xl-7 col-lg-6 mb-30">
                     <div class="box-images-pround">
                         <div class="box-images wow animate__animated animate__fadeIn"><img class="img-main"
-                                src="assets/imgs/page/homepage1/img1.png" alt="DML Express">
-                            <div class="image-2 shape-3"><img src="{{asset('client')/assets/imgs/page/homepage1/icon1.png}}"
+                                src="{{asset('client/imgs/page/homepage1/img1.png')}}" alt="DML Express">
+                            <div class="image-2 shape-3"><img src="{{asset('client/imgs/page/homepage1/icon1.png')}}"
                                     alt="DML Express"></div>
                         </div>
                     </div>
@@ -341,9 +341,9 @@
                             </ul>
                         </div>
                         <div class="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><a
-                                class="hover-up mr-10" href="#"><img src="{{asset('client')/assets/imgs/template/appstore-btn.png}}"
+                                class="hover-up mr-10" href="#"><img src="{{asset('client/imgs/template/appstore-btn.png')}}"
                                     alt="DML Express"></a><a class="hover-up" href="#"><img
-                                    src="{{asset('client')/assets/imgs/template/google-play-btn.png}}" alt="DML Express"></a></div>
+                                    src="{{asset('client/imgs/template/google-play-btn.png')}}" alt="DML Express"></a></div>
                     </div>
                 </div>
             </div>
@@ -397,7 +397,7 @@
     </section>
     <section class="section pt-85 bg-worldmap">
         <div class="container">
-            <div class="text-center"><img class="mb-15" src="{{asset('client')/assets/imgs/template/icons/favicon.svg}}" alt="DML Express">
+            <div class="text-center"><img class="mb-15" src="{{asset('client/imgs/template/icons/favicon.svg')}}" alt="DML Express">
                 <h2 class="color-brand-2 mb-20 wow animate__animated animate__fadeIn">How It Works</h2>
                 <p class="font-md color-grey-700 wow animate__animated animate__fadeIn">You choose the cities where
                     you’d like
@@ -410,10 +410,10 @@
             <div class="row mt-50">
                 <div class="col-lg-6 mb-30">
                     <div class="box-image-how"><img class="w-100 wow animate__animated animate__fadeIn"
-                            src="{{asset('client')/assets/imgs/page/homepage1/how-it-work.png}}" alt="DML Express">
+                            src="{{asset('client/imgs/page/homepage1/how-it-work.png')}}" alt="DML Express">
                         <div class="box-info-bottom-img">
                             <div class="image-play"><img class="mb-15 wow animate__animated animate__fadeIn"
-                                    src="{{asset('client')/assets/imgs/template/icons/play.svg}}" alt="DML Express"></div>
+                                    src="{{asset('client/imgs/template/icons/play.svg')}}" alt="DML Express"></div>
                             <div class="info-play">
                                 <h4 class="color-white mb-15 wow animate__animated animate__fadeIn">We have 25
                                     years experience in
@@ -430,7 +430,7 @@
                 <div class="col-lg-6 mb-30">
                     <ul class="list-how-works">
                         <li>
-                            <div class="image-how"><span class="img"><img src="{{asset('client')/assets/imgs/page/homepage1/order.png}}"
+                            <div class="image-how"><span class="img"><img src="{{asset('client/imgs/page/homepage1/order.png')}}"
                                         alt="DML Express"></span></div>
                             <div class="info-how">
                                 <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Customer places
@@ -441,7 +441,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="image-how"><span class="img"><img src="{{asset('client')/assets/imgs/page/homepage1/payment.png}}"
+                            <div class="image-how"><span class="img"><img src="{{asset('client/imgs/page/homepage1/payment.png')}}"
                                         alt="DML Express"></span>
                             </div>
                             <div class="info-how">
@@ -454,7 +454,7 @@
                         </li>
                         <li>
                             <div class="image-how"><span class="img"><img
-                                        src="{{asset('client')/assets/imgs/page/homepage1/warehouse.png}}" alt="DML Express"></span>
+                                        src="{{asset('client/imgs/page/homepage1/warehouse.png')}}" alt="DML Express"></span>
                             </div>
                             <div class="info-how">
                                 <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Warehouse receives
@@ -465,7 +465,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="image-how"><span class="img"><img src="{{asset('client')/assets/imgs/page/homepage1/picked.png}}"
+                            <div class="image-how"><span class="img"><img src="{{asset('client/imgs/page/homepage1/picked.png')}}"
                                         alt="DML Express"></span>
                             </div>
                             <div class="info-how">
@@ -478,7 +478,7 @@
                         </li>
                         <li>
                             <div class="image-how"><span class="img"><img
-                                        src="{{asset('client')/assets/imgs/page/homepage1/delivery.png}}" alt="DML Express"></span>
+                                        src="{{asset('client/imgs/page/homepage1/delivery.png')}}" alt="DML Express"></span>
                             </div>
                             <div class="info-how">
                                 <h5 class="color-brand-2 wow animate__animated animate__fadeIn">Delivered & Measure
@@ -489,117 +489,6 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section mt-50 bg-customers-say">
-        <div class="container">
-            <h2 class="title-favicon color-white mb-20 title-padding-left wow animate__animated animate__fadeIn">
-                What our
-                customers are saying</h2>
-            <p class="font-lg color-white pl-55 wow animate__animated animate__fadeIn">Hear from our users who have
-                saved
-                thousands on their<br class="d-none d-lg-block">Startup and SaaS solution spend.</p>
-        </div>
-        <div class="box-slide-customers mt-50">
-            <div class="box-swiper">
-                <div class="swiper-container swiper-group-3-customers pb-50">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide wow animate__animated animate__fadeIn">
-                            <div class="card-testimonial-grid">
-                                <div class="box-author mb-25"><a href="#"><img
-                                            src="{{asset('client')/assets/imgs/page/homepage1/author.png}}" alt="DML Express"></a>
-                                    <div class="author-info"><a href="#"><span
-                                                class="font-xl-bold color-brand-2 author-name">Guy
-                                                Hawkins</span></a><span class="font-sm color-grey-500 department">Bank of
-                                            America</span></div>
-                                </div>
-                                <p class="font-md color-grey-700">Access the same project through five different
-                                    dynamic views: a
-                                    kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                <div class="card-bottom-info justify-content-between">
-                                    <div class="rating text-start"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><br><span class="font-sm color-white">For
-                                            customer support</span></div><span
-                                        class="font-xs color-grey-500 rate-post text-end">Rate: 4.95
-                                        / 5</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow animate__animated animate__fadeIn">
-                            <div class="card-testimonial-grid">
-                                <div class="box-author mb-25"><a href="#"><img
-                                            src="{{asset('client')/assets/imgs/page/homepage1/author2.png}}" alt="DML Express"></a>
-                                    <div class="author-info"><a href="#"><span
-                                                class="font-xl-bold color-brand-2 author-name">Eleanor
-                                                Pena</span></a><span class="font-sm color-grey-500 department">Bank
-                                            of America</span></div>
-                                </div>
-                                <p class="font-md color-grey-700">Access the same project through five different
-                                    dynamic views: a
-                                    kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                <div class="card-bottom-info justify-content-between">
-                                    <div class="rating text-start"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><br><span class="font-sm color-white">For
-                                            customer support</span></div><span
-                                        class="font-xs color-grey-500 rate-post text-end">Rate: 4.95
-                                        / 5</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow animate__animated animate__fadeIn">
-                            <div class="card-testimonial-grid">
-                                <div class="box-author mb-25"><a href="#"><img
-                                            src="{{asset('client')/assets/imgs/page/homepage1/author3.png}}" alt="DML Express"></a>
-                                    <div class="author-info"><a href="#"><span
-                                                class="font-xl-bold color-brand-2 author-name">Cody
-                                                Fisher</span></a><span class="font-sm color-grey-500 department">Bank of
-                                            America</span></div>
-                                </div>
-                                <p class="font-md color-grey-700">Access the same project through five different
-                                    dynamic views: a
-                                    kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                <div class="card-bottom-info justify-content-between">
-                                    <div class="rating text-start"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><img src="{{asset('client')/assets/imgs/template/icons/star.svg}}"
-                                            alt="DML Express"><br><span class="font-sm color-white">For
-                                            customer support</span></div><span
-                                        class="font-xs color-grey-500 rate-post text-end">Rate: 4.95
-                                        / 5</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box-pagination-customers">
-                        <div
-                            class="swiper-button-prev swiper-button-prev-customers swiper-button-prev-style-1 wow animate__animated animate__fadeIn">
-                            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"></path>
-                            </svg>
-                        </div>
-                        <div
-                            class="swiper-button-next swiper-button-next-customers swiper-button-next-style-1 wow animate__animated animate__fadeIn">
-                            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
-                            </svg>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -628,7 +517,7 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="cardGrid">
-                                    <div class="cardImage"> <img src="{{asset('client')/assets/imgs/page/homepage1/img.png}}"
+                                    <div class="cardImage"> <img src="{{asset('client/imgs/page/homepage1/img.png')}}"
                                             alt="DML Express"></div>
                                     <div class="cardInfo">
                                         <h5 class="color-brand-2 mb-10">Air Freight</h5>
@@ -649,7 +538,7 @@
                             </div>
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="cardGrid">
-                                    <div class="cardImage"> <img src="{{asset('client')/assets/imgs/page/homepage1/img2.png}}"
+                                    <div class="cardImage"> <img src="{{asset('client/imgs/page/homepage1/img2.png')}}"
                                             alt="DML Express"></div>
                                     <div class="cardInfo">
                                         <h5 class="color-brand-2 mb-10">Sea Freight</h5>
@@ -670,7 +559,7 @@
                             </div>
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="cardGrid">
-                                    <div class="cardImage"> <img src="{{asset('client')/assets/imgs/page/homepage1/img3.png}}"
+                                    <div class="cardImage"> <img src="{{asset('client/imgs/page/homepage1/img3.png')}}"
                                             alt="DML Express"></div>
                                     <div class="cardInfo">
                                         <h5 class="color-brand-2 mb-10">Trucking</h5>
@@ -691,7 +580,7 @@
                             </div>
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="cardGrid">
-                                    <div class="cardImage"> <img src="{{asset('client')/assets/imgs/page/homepage1/img5.png}}" width="322px"
+                                    <div class="cardImage"> <img src="{{asset('client/imgs/page/homepage1/img5.png')}}" width="322px"
                                             height="277px" alt="DML Express"></div>
                                     <div class="cardInfo">
                                         <h5 class="color-brand-2 mb-10">Customs Clearance</h5>
@@ -712,7 +601,7 @@
                             </div>
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="cardGrid">
-                                    <div class="cardImage"> <img src="{{asset('client')/assets/imgs/page/homepage1/img4.png}}"
+                                    <div class="cardImage"> <img src="{{asset('client/imgs/page/homepage1/img4.png')}}"
                                             alt="DML Express"></div>
                                     <div class="cardInfo">
                                         <h5 class="color-brand-2 mb-10">Warehouse Solutions</h5>
@@ -734,7 +623,7 @@
 
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="cardGrid">
-                                    <div class="cardImage"> <img src="{{asset('client')/assets/imgs/page/homepage1/img6.png}}" width="322px"
+                                    <div class="cardImage"> <img src="{{asset('client/imgs/page/homepage1/img6.png')}}" width="322px"
                                             height="277px" alt="DML Express"></div>
                                     <div class="cardInfo">
                                         <h5 class="color-brand-2 mb-10">Railway Freight</h5>
@@ -756,7 +645,7 @@
 
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="cardGrid">
-                                    <div class="cardImage"> <img src="{{asset('client')/assets/imgs/page/homepage1/img7.jpg}}" width="100%"
+                                    <div class="cardImage"> <img src="{{asset('client/imgs/page/homepage1/img7.jpg')}}" width="100%"
                                             height="277px" alt="DML Express"></div>
                                     <div class="cardInfo">
                                         <h5 class="color-brand-2 mb-10">Cross Border</h5>
@@ -814,7 +703,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-30">
                     <div class="cardLeadingCompany">
                         <div class="cardImage"><span class="img wow animate__animated animate__fadeIn"><img
-                                    src="{{asset('client')/assets/imgs/page/homepage1/handover.png}}" alt="DML Express"></span></div>
+                                    src="{{asset('client/imgs/page/homepage1/handover.png')}}" alt="DML Express"></span></div>
                         <div class="cardInfo">
                             <h3 class="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span
                                     class="count">38</span><span>0,000</span></h3>
@@ -825,7 +714,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-30">
                     <div class="cardLeadingCompany">
-                        <div class="cardImage"><span class="img"><img src="{{asset('client')/assets/imgs/page/homepage1/cities.png}}"
+                        <div class="cardImage"><span class="img"><img src="{{asset('client/imgs/page/homepage1/cities.png')}}"
                                     alt="DML Express"></span></div>
                         <div class="cardInfo">
                             <h3 class="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span
@@ -837,7 +726,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-30">
                     <div class="cardLeadingCompany">
-                        <div class="cardImage"><span class="img"><img src="{{asset('client')/assets/imgs/page/homepage1/client.png}}"
+                        <div class="cardImage"><span class="img"><img src="{{asset('client/imgs/page/homepage1/client.png')}}"
                                     alt="DML Express"></span></div>
                         <div class="cardInfo">
                             <h3 class="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span
@@ -849,7 +738,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-30">
                     <div class="cardLeadingCompany">
-                        <div class="cardImage"><span class="img"><img src="{{asset('client')/assets/imgs/page/homepage1/company.png}}"
+                        <div class="cardImage"><span class="img"><img src="{{asset('client/imgs/page/homepage1/company.png')}}"
                                     alt="DML Express"></span></div>
                         <div class="cardInfo">
                             <h3 class="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span
@@ -975,225 +864,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box-image-contact"><img src="{{asset('client')/assets/imgs/page/homepage1/img-contact.png}}"
+                        <div class="box-image-contact"><img src="{{asset('client/imgs/page/homepage1/img-contact.png')}}"
                                 alt="DML Express"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section bg-grey-100 bg-choose-plan pt-110 pb-110">
-        <div class="container">
-            <div class="text-center"><img class="mb-15" src="{{asset('client')/assets/imgs/template/icons/favicon.svg}}" alt="DML Express">
-                <h2 class="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Choose The Best Plan</h2>
-                <p class="font-lg color-gray-500 wow animate__animated animate__fadeIn">Pick your plan. Change
-                    whenever you
-                    want.<br class="d-none d-lg-block">No switching fees between packages</p>
-            </div>
-            <div class="row mt-50 align-items-center">
-                <div class="col-xl-4 col-lg-4 wow animate__animated animate__fadeIn">
-                    <div class="card-plan hover-up">
-                        <h3 class="color-brand-2 title-plan">Premium</h3>
-                        <p class="font-md color-grey-500 desc-plan">Advanced features for pros who need more
-                            customization.</p>
-                        <div class="item-price-plan">
-                            <div class="for-month display-month">
-                                <h3 class="color-brand-2 d-inline-block">$<span>125</span></h3><span
-                                    class="color-grey-500 font-sm">/month</span>
-                            </div>
-                            <div class="for-year">
-                                <h3 class="color-brand-2 d-inline-block">$<span>1500</span></h3><span
-                                    class="color-grey-500 font-sm">/year</span>
-                            </div>
-                        </div>
-                        <div class="line-border"></div>
-                        <div class="mt-30 mb-30">
-                            <ul class="list-ticks list-ticks-2">
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>15-Days Shipping World Wide
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>1 Kg Weight Max /Package
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>Free Bubble Warp
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>24/7 Support
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="mt-20"><a class="btn btn-brand-2-full hover-up" href="#">Get
-                                Started
-                                <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor"
-                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3">
-                                    </path>
-                                </svg></a></div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 wow animate__animated animate__fadeIn">
-                    <div class="card-plan popular hover-up">
-                        <h3 class="color-brand-2 title-plan">Essentials</h3>
-                        <p class="font-md color-grey-500 desc-plan">All the basics for businesses that are just
-                            getting started.
-                        </p>
-                        <div class="item-price-plan">
-                            <div class="for-month display-month">
-                                <h3 class="color-brand-2 d-inline-block">$<span>89</span></h3><span
-                                    class="color-grey-500 font-sm">/month</span>
-                            </div>
-                            <div class="for-year">
-                                <h3 class="color-brand-2 d-inline-block">$<span>1068</span></h3><span
-                                    class="color-grey-500 font-sm">/year</span>
-                            </div>
-                        </div>
-                        <div class="line-border"></div>
-                        <div class="mt-30 mb-30">
-                            <ul class="list-ticks list-ticks-2">
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>7-Days Shipping World Wide
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>3 Kg Weight Max /Package
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>Free Wood Crate
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>Get in touch to discuss
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>Use Personal And Commercial
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>24/7 Support
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="mt-20"><a class="btn btn-brand-2-full hover-up" href="#">Get
-                                Started
-                                <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor"
-                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3">
-                                    </path>
-                                </svg></a></div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 wow animate__animated animate__fadeIn">
-                    <div class="card-plan hover-up">
-                        <h3 class="color-brand-2 title-plan">Unlimited</h3>
-                        <p class="font-md color-grey-500 desc-plan">Avvanced features for pros who need more
-                            customization.</p>
-                        <div class="item-price-plan">
-                            <div class="for-month display-month">
-                                <h3 class="color-brand-2 d-inline-block">$<span>199</span></h3><span
-                                    class="color-grey-500 font-sm">/month</span>
-                            </div>
-                            <div class="for-year">
-                                <h3 class="color-brand-2 d-inline-block">$<span>2388</span></h3><span
-                                    class="color-grey-500 font-sm">/year</span>
-                            </div>
-                        </div>
-                        <div class="line-border"></div>
-                        <div class="mt-30 mb-30">
-                            <ul class="list-ticks list-ticks-2">
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>4 -Days Shipping World Wide
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>1 Kg Weight Max /Package
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>Free Bubble Warp
-                                </li>
-                                <li>
-                                    <svg class="icon-16" fill="currentColor" viewbox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path clip-rule="evenodd" fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z">
-                                        </path>
-                                    </svg>24/7 Support
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="mt-20"><a class="btn btn-brand-2-full hover-up" href="#">Get
-                                Started
-                                <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor"
-                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1209,12 +881,12 @@
                             inquisitive? Have a
                             read through some of our FAQs or contact our supporters for help</p>
                         <div class="box-gallery-faqs">
-                            <div class="image-top"><img src="{{asset('client')/assets/imgs/page/homepage1/img-faq1.png}}"
+                            <div class="image-top"><img src="{{asset('client/imgs/page/homepage1/img-faq1.png')}}"
                                     alt="DML Express"></div>
                             <div class="image-bottom">
-                                <div class="image-faq-1"><img src="{{asset('client')/assets/imgs/page/homepage1/img-faq2.png}}"
+                                <div class="image-faq-1"><img src="{{asset('client/imgs/page/homepage1/img-faq2.png')}}"
                                         alt="DML Express"></div>
-                                <div class="image-faq-2"><img src="{{asset('client')/assets/imgs/page/homepage1/img-faq3.png}}"
+                                <div class="image-faq-2"><img src="{{asset('client/imgs/page/homepage1/img-faq3.png')}}"
                                         alt="DML Express"></div>
                             </div>
                         </div>
@@ -1392,7 +1064,7 @@
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="card-blog-grid hover-up">
                                     <div class="card-image"><a href="blog-sing.html"><img
-                                                src="assets/imgs/page/homepage1/news1.png" alt="DML Express"></a><a
+                                                src="{{asset('client/imgs/page/homepage1/news1.png')}}" alt="DML Express"></a><a
                                             class="btn btn-border-brand-1 mr-15" href="blog.html">Shipping</a></div>
                                     <div class="card-info"><a href="blog-sing.html">
                                             <h5 class="color-brand-2">How to find reliable logistics company in
@@ -1420,7 +1092,7 @@
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="card-blog-grid hover-up">
                                     <div class="card-image"><a href="blog-sing.html"><img
-                                                src="assets/imgs/page/homepage1/news2.png" alt="DML Express"></a><a
+                                                src="{{asset('client/imgs/page/homepage1/news2.png')}}" alt="DML Express"></a><a
                                             class="btn btn-border-brand-1 mr-15" href="blog.html">Shipping</a></div>
                                     <div class="card-info"><a href="blog-sing.html">
                                             <h5 class="color-brand-2">How to find reliable logistics company in
@@ -1448,7 +1120,7 @@
                             <div class="swiper-slide wow animate__animated animate__fadeIn">
                                 <div class="card-blog-grid hover-up">
                                     <div class="card-image"><a href="blog-sing.html"><img
-                                                src="{{asset('client')/assets/imgs/page/homepage1/news3.png}}" alt="DML Express"></a><a
+                                                src="{{asset('client/imgs/page/homepage1/news3.png')}}" alt="DML Express"></a><a
                                             class="btn btn-border-brand-1 mr-15" href="blog.html">Shipping</a></div>
                                     <div class="card-info"><a href="blog-sing.html">
                                             <h5 class="color-brand-2">How to find reliable logistics company in
@@ -1488,7 +1160,7 @@
                     height="420" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div class="map-info"><img class="mb-25 wow animate__animated animate__fadeIn"
-                        src="assets/imgs/template/logo.png" width="120px" alt="DML Express">
+                        src="{{asset('client/imgs/template/logo.png')}}" width="120px" alt="DML Express">
                     <p class="color-grey-700 mb-25 wow animate__animated animate__fadeIn">144, Muktobangla
                         Shopping Complex (1st Floor) Mirpur 1, Dhaka 1216</p>
                     <p class="color-grey-700 mb-10 wow animate__animated animate__fadeIn">

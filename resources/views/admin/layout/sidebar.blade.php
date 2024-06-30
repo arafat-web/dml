@@ -29,19 +29,19 @@
             <li>
                 <a href="#">
                     <i class="uil uil-thumbs-up"></i>
-                    <span class="link-name">Like</span>
+                    <span class="link-name">Users</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <i class="uil uil-comments"></i>
-                    <span class="link-name">Comment</span>
+                    <span class="link-name">Pages</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <i class="uil uil-share"></i>
-                    <span class="link-name">Share</span>
+                    <span class="link-name">Services</span>
                 </a>
             </li>
         </ul>
