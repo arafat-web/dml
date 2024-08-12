@@ -6739,9 +6739,9 @@ input:checked + .slider:before {
   top: 0px;
   left: -96px;
   right: -96px;
-  height: 570px;
-  background-color: #E0F0F6;
-  background-image: url(../imgs/page/trackyourparcel/world-map.png);
+  /* height: 570px; */
+  /* background-color: #E0F0F6;
+  background-image: url(../imgs/page/trackyourparcel/world-map.png); */
   background-position: top center;
   background-size: cover;
   z-index: 1;
@@ -6750,7 +6750,6 @@ input:checked + .slider:before {
 .box-info-trackyourparcel {
   position: relative;
   z-index: 2;
-  padding: 81px 0px;
   text-align: center;
   max-width: 645px;
   margin: auto;

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>DML Worldwide Express Bangladesh Ltd. - International Courier Services</title>
+    <title> @yield('title', 'DML Worldwide Express Bangladesh Ltd. - International Courier Services') </title>
     <!-- Basic Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -80,6 +80,8 @@
     <script src="{{ asset('client/js/vendors/jquery.elevatezoom.js') }}"></script>
     <script src="{{ asset('client/js/vendors/slick.js') }}"></script>
     <script src="{{ asset('client/js/main28b5.js?v=2.0.0') }}"></script>
+
+    @stack('scripts')
 </body>
 
 
