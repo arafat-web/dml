@@ -12,12 +12,34 @@ class TrackController extends Controller
     {
         if ($request->has('number')) {
             $trackNumber = $request->number;
-            $response = Http::get('http://127.0.0.1:8000/api/track?number=' . $trackNumber);
+            $response = Http::get('http://localhost/dml-backend/public/api/track?number=' . $trackNumber);
 
+            if ($response->successful()) {
+                $bookingService = $response['booking']['service']['service'];
+                $awbNumber = $response['booking']['service']['awn'];
+
+                if ($bookingService === 'DPD') {
+                    $result = Http::get('https://apis.track.dpd.co.uk/v1/parcels/' . $awbNumber . '*20665/parcelevents');
+                } else if ($bookingService === 'DHL') {
+                    $result = Http::get('https://api.dhl.com/track/shipments?trackingNumber=' . $awbNumber . '&find_by=tracking_number');
+                } else {
+                    $result = null;
+                }
+            } else {
+                $response = null;
+                $bookingService = null;
+                $awbNumber = null;
+                $result = null;
+            }
         } else {
-            dd('no number');
+            $trackNumber = '';
+            $response = null;
+            $bookingService = null;
+            $awbNumber = null;
+            $result = null;
         }
 
-        return view('client.track.track', compact('response', 'trackNumber'));
+        return view('client.track.track', compact('response', 'trackNumber', 'bookingService', 'awbNumber', 'result'));
     }
+
 }

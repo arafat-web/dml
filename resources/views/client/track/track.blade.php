@@ -91,33 +91,80 @@
     </section>
 
     <!-- New Section: Tracking Details -->
-    <section style="max-width: 800px; margin: 0 auto" class="section d-block">
+    <section style="max-width: 1000px; margin: 0 auto" class="section d-block">
         <div class="container">
             <div class="card shadow-lg border-0 mb-4">
                 <div class="card-header bg-brand-1 text-white text-center">
                     <h5 class="mb-0" style="font-size: 1.5rem; font-weight: 600; color: #034460">Tracking Details</h5>
                 </div>
                 <div class="card-body p-4">
-                    @if (isset($response['booking']['statuses']) && count($response['booking']['statuses']) > 0)
-                        @foreach ($response['booking']['statuses'] as $status)
-                            <div class="mb-4">
-                                <p><strong>Status:</strong> {{ $status['activities'] }}</p>
-                                <p><strong>Last Location:</strong> {{ $status['location'] }}</p>
-                                <p><strong>Date and Time:</strong>
-                                    {{ \Carbon\Carbon::parse($status['date_time'])->format('Y-m-d H:i:s') }}</p>
-                            </div>
-                            @if (!$loop->last)
-                                <hr class="my-4">
-                            @endif
-                        @endforeach
-                    @else
-                        <p>No tracking details available.</p>
-                    @endif
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="thead-light d-md-table-header-group">
+                                <tr>
+                                    <th>Status</th>
+                                    <th>Last Location</th>
+                                    <th>Date and Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (isset($response['booking']['statuses']) && count($response['booking']['statuses']) > 0)
+                                    @foreach ($response['booking']['statuses'] as $status)
+                                        <tr class="d-block d-md-table-row">
+                                            <td data-label="Status" class="d-block d-md-table-cell">{{ $status['activities'] }}</td>
+                                            <td data-label="Last Location" class="d-block d-md-table-cell">{{ $status['location'] }}</td>
+                                            <td data-label="Date and Time" class="d-block d-md-table-cell">{{ \Carbon\Carbon::parse($status['date_time'])->format('Y-m-d H:i:s') }}</td>
+                                        </tr>
+                                    @endforeach
+                                @else
+                                    <tr>
+                                        <td colspan="3" class="text-center">No tracking details available.</td>
+                                    </tr>
+                                @endif
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- New Section: DPD Tracking Details -->
+    @if ($bookingService === 'DPD' && isset($result['data']))
+        <section style="max-width: 1000px; margin: 0 auto" class="section d-block">
+            <div class="container">
+                <div class="card shadow-lg border-0 mb-4">
+                    <div class="card-header bg-brand-1 text-white text-center">
+                        <h5 class="mb-0" style="font-size: 1.5rem; font-weight: 600; color: #034460">DPD Tracking Details</h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="thead-light d-md-table-header-group">
+                                    <tr>
+                                        <th>Status</th>
+                                        <th>Location</th>
+                                        <th>Date</th>
+                                        <th>Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($result['data'] as $event)
+                                        <tr class="d-block d-md-table-row">
+                                            <td data-label="Status" class="d-block d-md-table-cell">{{ $event['eventText'] }}</td>
+                                            <td data-label="Location" class="d-block d-md-table-cell">{{ $event['eventLocation'] }}</td>
+                                            <td data-label="Date" class="d-block d-md-table-cell">{{ \Carbon\Carbon::parse($event['eventDate'])->format('Y-m-d') }}</td>
+                                            <td data-label="Time" class="d-block d-md-table-cell">{{ $event['eventTime'] }}</td>
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    @endif
 @endsection
 
 @push('styles')
@@ -132,10 +179,57 @@
         }
 
         .card-header {
-            font-size: 1.5rem;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .table-responsive table {
+            width: 100%;
+        }
+
+        .table td,
+        .table th {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Mobile styling for vertical format */
+        @media (max-width: 767px) {
+            .d-md-table-header-group {
+                display: none;
+            }
+
+            .d-block {
+                display: block;
+            }
+
+            .d-md-table-cell {
+                display: block;
+                width: 100%;
+                padding: 0.75rem 1.25rem;
+                margin-bottom: 0.5rem;
+                border: none;
+                border-bottom: 1px solid #e9ecef;
+            }
+
+            .d-md-table-cell:before {
+                content: attr(data-label);
+                font-weight: bold;
+                display: inline-block;
+                margin-right: 0.5rem;
+            }
+
+            .table-responsive {
+                border: 0;
+            }
+
+            .table {
+                border: 0;
+            }
+
+            .table thead {
+                display: none;
+            }
         }
     </style>
-@endpush
-
-@push('scripts')
 @endpush
