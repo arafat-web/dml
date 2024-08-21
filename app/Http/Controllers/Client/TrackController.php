@@ -20,7 +20,11 @@ class TrackController extends Controller
                 if ($bookingService === 'DPD') {
                     $result = Http::get("https://apis.track.dpd.co.uk/v1/parcels/$awbNumber*20665/parcelevents");
                 } else if ($bookingService === 'DHL') {
-                    $result = Http::get("https://api.dhl.com/track/shipments?trackingNumber=$awbNumber&find_by=tracking_number");
+                    $result = Http::asForm()->post("https://api.dhl.com/track/shipments?trackingNumber=$awbNumber&find_by=tracking_number", [
+                        'grant_type' => 'client_credentials',
+                        'client_id' => 'Sfo44PQVUpuiAr3WzT64ynHkCHma0MG9',
+                        'client_secret' => 'dmmuYgcAkCL7EF1y'
+                    ]);
                 } else if ($bookingService === 'FEDEX') {
                     try {
                         $getResponse = Http::asForm()->post('https://apis.fedex.com/oauth/token', [
