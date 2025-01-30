@@ -74,84 +74,68 @@
                     <nav class="nav-main-menu d-none d-xl-block">
                         <ul class="main-menu">
                             <li>
-                                <a class="{{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a>
+                                <a class="{{ request()->routeIs('home') ? 'active' : '' }}"
+                                    href="{{ route('home') }}">Home</a>
                             </li>
-                            <li><a class="{{ request()->routeIs('about') ? 'active' : '' }}" href="{{ route('about') }}">About Us</a></li>
+                            <li><a class="{{ request()->routeIs('about') ? 'active' : '' }}"
+                                    href="{{ route('about') }}">About Us</a></li>
                             <li class="has-children">
                                 <a href="#">Services</a>
                                 <div class="sub-menu five-col">
                                     <div class="menu-col">
-                                        <h6 class="color-brand-2 mb-15">Worldwide Express</h6>
-                                        <div class="menu-image"><img
-                                                src="{{ asset('client/imgs/page/homepage1/menu3.png') }}"
-                                                alt="DML Express"></div>
-                                        <ul class="megamenu">
-                                            <li><a href="services.html">Road Freight</a></li>
-                                            <li><a href="services.html">Rail Freight</a></li>
-                                            <li><a href="services.html">Intermodal Transportation</a></li>
-                                            <li><a href="services.html">Less-than-Truckload (LTL) Shipping</a></li>
-                                            <li><a href="services.html">Specialized Transportation</a></li>
-                                        </ul>
+                                        <a href="#" style="padding: 0px;">
+                                            <h6 class="color-brand-2 mb-15">Worldwide Express</h6>
+                                            <div class="menu-image">
+                                                <img src="{{ asset('client/imgs/page/homepage1/menu3.png') }}"
+                                                    alt="DML Express">
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="menu-col">
-                                        <h6 class="color-brand-2 mb-15">Sea Forwarding</h6>
-                                        <div class="menu-image"><img
-                                                src="{{ asset('client/imgs/page/homepage1/menu1.png') }}"
-                                                alt="DML Express"></div>
-                                        <ul class="megamenu">
-                                            <li><a href="services.html">Container Shipping</a></li>
-                                            <li><a href="services.html">Bulk Shipping</a></li>
-                                            <li><a href="services.html">Roll-on/Roll-off Shipping</a></li>
-                                            <li><a href="services.html">Break Bulk Shipping</a></li>
-                                            <li><a href="services.html">Project Cargo Shipping</a></li>
-                                        </ul>
+                                        <a href="#" style="padding: 0px;">
+                                            <h6 class="color-brand-2 mb-15">Sea Forwarding</h6>
+                                            <div class="menu-image">
+                                                <img src="{{ asset('client/imgs/page/homepage1/menu1.png') }}"
+                                                    alt="DML Express">
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="menu-col">
-                                        <h6 class="color-brand-2 mb-15">Air Freight Forwarding</h6>
-                                        <div class="menu-image"><img
-                                                src="{{ asset('client/imgs/page/homepage1/menu2.png') }}"
-                                                alt="DML Express"></div>
-                                        <ul class="megamenu">
-                                            <li><a href="services.html">General Cargo</a></li>
-                                            <li><a href="services.html">Express Shipping</a></li>
-                                            <li><a href="services.html">Dangerous Goods</a></li>
-                                            <li><a href="services.html">Oversized Cargo</a></li>
-                                            <li><a href="services.html">Perishable Goods</a></li>
-                                        </ul>
+                                        <a href="#" style="padding: 0px;">
+                                            <h6 class="color-brand-2 mb-15">Air Freight Forwarding</h6>
+                                            <div class="menu-image">
+                                                <img src="{{ asset('client/imgs/page/homepage1/menu2.png') }}"
+                                                    alt="DML Express">
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="menu-col">
-                                        <h6 class="color-brand-2 mb-15">Railway Logistics</h6>
-                                        <div class="menu-image"><img
-                                                src="{{ asset('client/imgs/page/homepage1/menu4.png') }}"
-                                                alt="DML Express"></div>
-                                        <ul class="megamenu">
-                                            <li><a href="services.html">Rail Freight Transportation</a></li>
-                                            <li><a href="services.html">Rail Terminal Services</a></li>
-                                            <li><a href="services.html">Rail Freight Forwarding</a></li>
-                                            <li><a href="services.html">Intermodal Transportation</a></li>
-                                            <li><a href="services.html">Rail Logistics Consulting</a></li>
-                                        </ul>
+                                        <a href="#" style="padding: 0px;">
+                                            <h6 class="color-brand-2 mb-15">Railway Logistics</h6>
+                                            <div class="menu-image">
+                                                <img src="{{ asset('client/imgs/page/homepage1/menu4.png') }}"
+                                                    alt="DML Express">
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="menu-col">
-                                        <h6 class="color-brand-2 mb-15">Warehouse</h6>
-                                        <div class="menu-image"><img
-                                                src="{{ asset('client/imgs/page/homepage1/menu5.png') }}"
-                                                alt="DML Express"></div>
-                                        <ul class="megamenu">
-                                            <li><a href="services.html">Warehousing</a></li>
-                                            <li><a href="services.html">Distribution Center Operations</a></li>
-                                            <li><a href="services.html">E-Commerce Fulfillment</a></li>
-                                            <li><a href="services.html">Reverse Logistics</a></li>
-                                            <li><a href="services.html">Inventory Management</a></li>
-                                        </ul>
+                                        <a href="#" style="padding: 0px;">
+                                            <h6 class="color-brand-2 mb-15">Warehouse</h6>
+                                            <div class="menu-image">
+                                                <img src="{{ asset('client/imgs/page/homepage1/menu5.png') }}"
+                                                    alt="DML Express">
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </li>
-                            <li><a class="{{ request()->routeIs('process') ? 'active' : '' }}" href="{{ route('process') }}">Work Process</a>
+                            <li><a class="{{ request()->routeIs('process') ? 'active' : '' }}"
+                                    href="{{ route('process') }}">Work Process</a>
                             </li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a class="{{ request()->routeIs('track') ? 'active' : '' }}" href="{{ route('track') }}">Track</a></li>
+                            {{-- <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li> --}}
+                            <li><a class="{{ request()->routeIs('track') ? 'active' : '' }}"
+                                    href="{{ route('track') }}">Track</a></li>
                         </ul>
                     </nav>
                     <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span

@@ -2,35 +2,28 @@
 @section('title', 'Dashboard')
 
 @section('content')
-    <div class="dash-content">
-        <div aria-label="breadcrumb">
-            <div class="title mt-4 mb-0">
-                
-                <h3 class="m-0 fw-normal">Dashboard</h3>
-            </div>
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#"> <i class="uil uil-estate"></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
+    <div class='card'>
+        <div class='card-header'>
+            <i class='fas fa-users'></i> Total Users
         </div>
-        <div class="overview">
-            <div class="boxes">
-                <div class="box box1">
-                    <i class="uil uil-thumbs-up"></i>
-                    <span class="text">Total Visit</span>
-                    <span class="number">50</span>
-                </div>
-                <div class="box box2">
-                    <i class="uil uil-comments"></i>
-                    <span class="text">Total Pages</span>
-                    <span class="number">5</span>
-                </div>
-                <div class="box box3">
-                    <i class="uil uil-share"></i>
-                    <span class="text">Total Services</span>
-                    <span class="number">110</span>
-                </div>
-            </div>
+        <div class='card-value'>1,234</div>
+    </div>
+    <div class='card'>
+        <div class='card-header'>
+            <i class='fas fa-shopping-cart'></i> Orders
         </div>
+        <div class='card-value'>56</div>
+    </div>
+    <div class='card'>
+        <div class='card-header'>
+            <i class='fas fa-chart-line'></i> Revenue
+        </div>
+        <div class='card-value'>$45.2K</div>
+    </div>
+    <div class='card'>
+        <div class='card-header'>
+            <i class='fas fa-ticket-alt'></i> Support Tickets
+        </div>
+        <div class='card-value'>23</div>
     </div>
 @endsection

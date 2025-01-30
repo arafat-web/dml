@@ -1,4 +1,6 @@
-<div class="top">
-    <i class="uil uil-bars sidebar-toggle"></i>
-    <img src="{{ asset('admin/images/profile.jpg') }}" class="logo" alt="Logo"> 
+<div class='header'>
+    <div class='toggle-btn' id='toggle-btn'>
+        <i class='fas fa-bars'></i>
+    </div>
+    <div class='datetime'>@yield('title')</div>
 </div>

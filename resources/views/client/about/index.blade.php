@@ -9,8 +9,8 @@
                 <h2 class="color-brand-1 mt-15 mb-10 wow animate__ animate__fadeIn animated"
                     style="visibility: visible; animation-name: fadeIn;">About Us</h2>
                 <p class="font-md color-white wow animate__ animate__fadeIn animated"
-                    style="visibility: visible; animation-name: fadeIn;">We have been pioneering the industry in Europe for
-                    20 years, and delivering value<br class="d-none d-lg-block">products within given timeframe, every single
+                    style="visibility: visible; animation-name: fadeIn;">We have been pioneering the industry in Bangladesh for
+                    12 years, and delivering value<br class="d-none d-lg-block">products within given timeframe, every single
                     time.
                 </p>
             </div>
@@ -101,7 +101,7 @@
                         <h2 class="color-brand-2 mt-15 mb-25 wow animate__ animate__fadeIn animated"
                             style="visibility: visible; animation-name: fadeIn;">Globally Connected by Large Network</h2>
                         <p class="font-md color-grey-900 mb-20 wow animate__ animate__fadeIn animated"
-                            style="visibility: visible; animation-name: fadeIn;">Logistic Transp was founded in 2005 by a
+                            style="visibility: visible; animation-name: fadeIn;">Logistic Transp was founded in 2012 by a
                             group of transportation professionals who saw an opportunity to provide a better level of
                             service to businesses. Since our founding, we have grown to become a leading transportation
                             provider, with a presence in over 30 countries around the world.
@@ -139,7 +139,7 @@
                         </h2>
                         <p class="font-md color-grey-900 mb-20 wow animate__ animate__fadeIn animated"
                             style="visibility: visible; animation-name: fadeIn;">We strive to become pioneers in the field,
-                            providing first quality and cost-effective service, and smart solutions to the market. Our 30
+                            providing first quality and cost-effective service, and smart solutions to the market. Our 12
                             years’ experience in the shipping, transport and logistics industry is our strength, which
                             support us to deliver our promises to our customers.
                         </p>

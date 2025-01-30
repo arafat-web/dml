@@ -2,16 +2,6 @@
 @section('title', 'Services')
 
 @section('content')
-    <div class="dash-content">
-        <div aria-label="breadcrumb">
-            <div class="title mt-4 mb-0">
-                <h3 class="m-0 fw-normal">Dashboard</h3>
-            </div>
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#"> <i class="uil uil-estate"></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page">Services</li>
-            </ol>
-        </div>
         <div class="card">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
@@ -31,7 +21,7 @@
                         <tbody>
                             @foreach ($services as $service)
                                 <tr>
-                                    <th scope="row">{{ $service->id }}</th>
+                                    <td scope="row">{{ $service->id }}</td>
                                     <td>{{ $service->name }}</td>
                                     <td>{{ $service->description }}</td>
                                     <td>
@@ -47,6 +37,4 @@
                 </div>
             </div>
         </div>
-
-    </div>
 @endsection

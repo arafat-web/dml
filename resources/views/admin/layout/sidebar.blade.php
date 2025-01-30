@@ -1,68 +1,47 @@
-<nav>
-    <div class="logo-name">
-        <div class="logo-image">
-            <img src="{{ asset('admin/images/logo.png') }}" alt="logo" alt="">
-        </div>
-        <span class="logo_name">Admin Panel</span>
+<div class='sidebar' id='sidebar'>
+    <div class='brand'>
+        <h2>DML Admin</h2>
     </div>
-
-    <div class="menu-items">
-        <ul class="nav-links">
-            <li>
-                <a class="{{ request()->routeIs('admin.dashboard') ? 'active' : '' }}" href="{{ route('admin.dashboard') }}">
-                    <i class="uil uil-estate"></i>
-                    <span class="link-name">Dahsboard</span>
-                </a>
-            </li>
-            <li>
-                <a class="{{ request()->routeIs('admin.services.*') ? 'active' : '' }}" href="{{ route('admin.services.index') }}">
-                    <i class="uil uil-files-landscapes"></i>
-                    <span class="link-name">Services</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="uil uil-chart"></i>
-                    <span class="link-name">Analytics</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="uil uil-thumbs-up"></i>
-                    <span class="link-name">Users</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="uil uil-comments"></i>
-                    <span class="link-name">Pages</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="uil uil-share"></i>
-                    <span class="link-name">Services</span>
-                </a>
-            </li>
-        </ul>
-
-        <ul class="logout-mode">
-            <li>
-                <a href="{{ route('admin.logout') }}">
-                    <i class="uil uil-signout"></i>
-                    <span class="link-name">Logout</span>
-                </a>
-            </li>
-
-            <li class="mode">
-                <a href="#">
-                    <i class="uil uil-moon"></i>
-                    <span class="link-name">Dark Mode</span>
-                </a>
-                <div class="mode-toggle">
-                    <span class="switch"></span>
-                </div>
-            </li>
-        </ul>
+    <div class='user-profile'>
+        <div class='user-avatar'>A</div>
+        <h3>DML</h3>
+        <p>Administrator</p>
     </div>
-</nav>
+    <ul class='nav-menu'>
+        <li class='nav-item {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}'>
+            <a href="{{ route('admin.dashboard') }}">
+                <i class='fas fa-home'></i>Dashboard
+            </a>
+        </li>
+        <li class='nav-item {{ request()->routeIs('admin.users.index') ? 'active' : '' }}'>
+            <a href="{{ route('admin.services.index') }}">
+                <i class='fas fa-truck'></i>Services
+            </a>
+        </li>
+        <li class='nav-item'>
+            <a href="analytics.html">
+                <i class='fas fa-info-circle'></i>About Us
+            </a>
+        </li>
+        <li class='nav-item'>
+            <a href="contact-social-media.html">
+                <i class='fas fa-address-book'></i> Contact & Social
+            </a>
+        </li>
+        <li class='nav-item'>
+            <a href="contact-social-media.html">
+                <i class='fas fa-chart-bar'></i> Statistics
+            </a>
+        </li>
+        <li class='nav-item'>
+            <a href="settings.html">
+                <i class='fas fa-cog'></i>Settings
+            </a>
+        </li>
+        <li class='nav-item'>
+            <a href="{{ route('admin.logout') }}">
+                <i class='fas fa-sign-out-alt'></i>Logout
+            </a>
+        </li>
+    </ul>
+</div>

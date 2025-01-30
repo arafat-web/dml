@@ -415,7 +415,7 @@
                             <div class="image-play"><img class="mb-15 wow animate__animated animate__fadeIn"
                                     src="{{asset('client/imgs/template/icons/play.svg')}}" alt="DML Express"></div>
                             <div class="info-play">
-                                <h4 class="color-white mb-15 wow animate__animated animate__fadeIn">We have 25
+                                <h4 class="color-white mb-15 wow animate__animated animate__fadeIn">We have 12
                                     years experience in
                                     this passion</h4>
                                 <p class="font-sm color-white wow animate__animated animate__fadeIn">There are many
@@ -488,7 +488,7 @@
                                     system</p>
                             </div>
                         </li>
-                    </ul> 
+                    </ul>
                 </div>
             </div>
         </div>
@@ -692,7 +692,7 @@
         <div class="container">
             <div class="text-center mb-45">
                 <h2 class="color-brand-1 mb-15 wow animate__animated animate__fadeIn">World’s Leading Companies<br
-                        class="d-none d-lg-block">For Over 80 Years.</h2>
+                        class="d-none d-lg-block">For Over 12 Years.</h2>
                 <p class="font-md color-white wow animate__animated animate__fadeIn">A big opportunity for your
                     business
                     growth. Delivering Results for Industry Leaders. We are<br class="d-none d-lg-block">proud of

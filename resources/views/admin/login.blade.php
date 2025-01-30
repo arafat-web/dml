@@ -50,7 +50,7 @@
         }
 
         .login__container__logo img {
-            width: 80px;
+            width: 120px;
             margin-bottom: 1rem;
         }
 
@@ -81,7 +81,7 @@
 
         .login__container__form .form__group .toggle-password {
             position: absolute;
-            top: 50%;
+            top: 75%;
             right: 10px;
             transform: translateY(-50%);
             cursor: pointer;
@@ -118,7 +118,7 @@
     <main class="login">
         <div class="login__container">
             <div class="login__container__logo">
-                <img src="{{ asset('admin/images/logo.png') }}" alt="logo">
+                <img src="{{ asset('client/imgs/template/logo.png') }}" alt="logo">
                 <h1>Admin Panel</h1>
             </div>
             <div class="login__container__form">
