@@ -8,40 +8,47 @@
         <p>Administrator</p>
     </div>
     <ul class='nav-menu'>
-        <li class='nav-item {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}'>
-            <a href="{{ route('admin.dashboard') }}">
+        <a href="{{ route('admin.dashboard') }}">
+            <li class='nav-item {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}'>
                 <i class='fas fa-home'></i>Dashboard
-            </a>
-        </li>
-        <li class='nav-item {{ request()->routeIs('admin.users.index') ? 'active' : '' }}'>
-            <a href="{{ route('admin.services.index') }}">
+            </li>
+        </a>
+        <a href="{{ route('admin.services.index') }}">
+            <li
+                class='nav-item {{ request()->routeIs('admin.services.index') || request()->routeIs('admin.services.create') ? 'active' : '' }}'>
                 <i class='fas fa-truck'></i>Services
-            </a>
-        </li>
-        <li class='nav-item'>
-            <a href="analytics.html">
+            </li>
+        </a>
+        <a href="{{ route('admin.seo.index') }}">
+            <li
+                class='nav-item {{ request()->routeIs('admin.seo.index') || request()->routeIs('admin.seo.create') ? 'active' : '' }}'>
+                <i class='fas fa-info-circle'></i>S.E.O
+            </li>
+        </a>
+        <a href="analytics.html">
+            <li class='nav-item'>
                 <i class='fas fa-info-circle'></i>About Us
-            </a>
-        </li>
-        <li class='nav-item'>
-            <a href="contact-social-media.html">
+            </li>
+        </a>
+        <a href="{{ route('admin.contact-info.index') }}">
+            <li class='nav-item {{ request()->routeIs('admin.contact-info.index') ? 'active' : '' }}'>
                 <i class='fas fa-address-book'></i> Contact & Social
-            </a>
-        </li>
-        <li class='nav-item'>
-            <a href="contact-social-media.html">
+            </li>
+        </a>
+        <a href="contact-social-media.html">
+            <li class='nav-item'>
                 <i class='fas fa-chart-bar'></i> Statistics
-            </a>
-        </li>
-        <li class='nav-item'>
-            <a href="settings.html">
+            </li>
+        </a>
+        <a href="settings.html">
+            <li class='nav-item'>
                 <i class='fas fa-cog'></i>Settings
-            </a>
-        </li>
-        <li class='nav-item'>
-            <a href="{{ route('admin.logout') }}">
+            </li>
+        </a>
+        <a href="{{ route('admin.logout') }}">
+            <li class='nav-item'>
                 <i class='fas fa-sign-out-alt'></i>Logout
-            </a>
-        </li>
+            </li>
+        </a>
     </ul>
 </div>

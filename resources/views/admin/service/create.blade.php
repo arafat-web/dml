@@ -42,7 +42,7 @@
                 <div class="form-group">
                     <label for="description">Description</label>
                     <textarea class="form-control" name="description" id="description" rows="3" placeholder="Enter description"
-                        required>{{ old('description') }}</textarea>
+                        >{{ old('description') }}</textarea>
                     <div class="form-group">
                         <span class="text-danger font-12">{{ $errors->first('description') }}</span>
                     </div>

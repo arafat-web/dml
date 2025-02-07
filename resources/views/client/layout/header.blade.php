@@ -68,8 +68,11 @@
     <div class="container">
         <div class="main-header">
             <div class="header-left">
-                <div class="header-logo"><a class="d-flex" href="{{ route('home') }}"><img alt="Ecom"
-                            src="{{ asset('client/imgs/template/logo.png') }}"></a></div>
+                <div class="header-logo">
+                    <a class="d-flex" href="{{ route('home') }}">
+                        <img alt="Ecom" src="{{ asset('client/imgs/template/logo.png') }}">
+                    </a>
+                </div>
                 <div class="header-nav">
                     <nav class="nav-main-menu d-none d-xl-block">
                         <ul class="main-menu">
@@ -156,24 +159,30 @@
                         </span>
                         <div class="dropdown-account">
                             <ul>
-                                <li><a class="font-md" href="#"><img src="assets/imgs/template/icons/en.png"
+                                <li>
+                                    <a class="font-md" href="#"><img src="assets/imgs/template/icons/en.png"
                                             alt="DML Express">
-                                        English</a>
+                                        English
+                                    </a>
                                 </li>
-                                <li><a class="font-md" href="#"><img src="assets/imgs/template/icons/fr.png"
+                                <li>
+                                    <a class="font-md" href="#"><img src="assets/imgs/template/icons/fr.png"
                                             alt="DML Express">
-                                        French</a>
+                                        French
+                                    </a>
                                 </li>
-                                <li><a class="font-md" href="#"><img src="assets/imgs/template/icons/cn.png"
+                                <li>
+                                    <a class="font-md" href="#"><img src="assets/imgs/template/icons/cn.png"
                                             alt="DML Express">
-                                        Chiness</a>
+                                        Chiness
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="d-none d-sm-inline-block">
-                        <a class="btn btn-default mr-10 hover-up" href="login.html">Login</a>
-                        <a class="btn btn-brand-1 d-none d-xl-inline-block hover-up" href="request-a-quote.html">
+                        <a class="btn btn-default mr-10 hover-up" href="#">Login</a>
+                        <a class="btn btn-brand-1 d-none d-xl-inline-block hover-up" href="#">
                             <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"

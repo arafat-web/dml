@@ -1,7 +1,7 @@
 <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
     <div class="mobile-header-wrapper-inner">
         <div class="mobile-header-content-area">
-            <div class="mobile-logo"><a class="btn btn-brand-1 hover-up" href="request-a-quote.html">
+            <div class="mobile-logo"><a class="btn btn-brand-1 hover-up" href="#">
                     <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -32,7 +32,7 @@
                                 <ul class="sub-menu">
                                     <li><a href="trackyourparcel.html">Track Your Parcel</a></li>
                                     <li><a href="workprocess.html">Work Process</a></li>
-                                    <li><a href="request-a-quote.html">Request a quote</a></li>
+                                    <li><a href="#">Request a quote</a></li>
                                     <li><a href="our-team.html">Our team</a></li>
                                     <li><a href="faqs.html">FAQ's</a></li>
                                     <li><a href="trackyourparcel.html">Track Your Parcel</a></li>

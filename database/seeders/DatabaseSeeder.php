@@ -1,5 +1,4 @@
 <?php
-
 namespace Database\Seeders;
 
 use App\Models\User;
@@ -15,9 +14,12 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::factory()->create([
-            'name' => 'Admin User',
-            'email' => 'admin@email.com',
+            'name'     => 'Admin User',
+            'email'    => 'admin@email.com',
             'password' => Hash::make('123456'),
+        ]);
+        $this->call([
+            ContactInfoSeeder::class,
         ]);
     }
 }

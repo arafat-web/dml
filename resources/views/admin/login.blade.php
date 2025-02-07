@@ -81,9 +81,9 @@
 
         .login__container__form .form__group .toggle-password {
             position: absolute;
-            top: 75%;
+            top: 50%;
             right: 10px;
-            transform: translateY(-50%);
+            transform: translate(-10px, -50%);
             cursor: pointer;
             color: #495057;
             font-size: 1.2rem;

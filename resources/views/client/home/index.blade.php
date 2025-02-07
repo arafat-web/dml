@@ -120,7 +120,7 @@
                         agency. We are the best at our trans-portation service ever.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 mb-30 text-md-end text-start"><a class="btn btn-brand-1 hover-up"
-                        href="request-a-quote.html">
+                        href="#">
                         <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -1019,7 +1019,7 @@
                         Us</h2>
                 </div>
                 <div class="get-quote-right"><a class="btn btn-get-quote wow animate__animated animate__fadeIn"
-                        href="request-a-quote.html">
+                        href="#">
                         <svg class="mr-10" fill="none" stroke="currentColor" stroke-width="1.5"
                             viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round"
