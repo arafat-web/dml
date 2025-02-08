@@ -29,9 +29,7 @@
                 </div>
                 <div class="form-group">
                     <label for="author">Author</label>
-                    <input type="text" class="form-control" name="author" id="author" placeholder="Enter author"
-                        value="{{ old('author') }}" required>
-                    <span class="text-danger font-12">{{ $errors->first('author') }}</span>
+                    <input type="text" class="form-control" name="author" id="author" value="DML Worldwide Express" readonly required>
                 </div>
                 <div class="form-group">
                     <label for="page_name">Page Name</label>
@@ -39,7 +37,7 @@
                         <option value="">Select Page Name</option>
                         <option value="home">Home</option>
                         <option value="about">About</option>
-                        <option value="contact">Contact</option>
+                        <option value="process">Process</option>
                         <option value="services">Services</option>
                     </select>
                     <span class="text-danger font-12">{{ $errors->first('page_name') }}</span>

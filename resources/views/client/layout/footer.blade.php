@@ -77,7 +77,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 text-center text-lg-start"><span
                             class="color-grey-300 font-md">©DML Express
-                            Official 2024. All right reversed.</span></div>
+                            Official {{ date('Y') }}. All right reversed.</span></div>
                     <div class="col-lg-6 col-md-12 text-center text-lg-end">
                         <ul class="menu-bottom">
                             <li><a class="font-sm color-grey-300" href="term-conditions.html">Privacy policy</a>

@@ -2,7 +2,15 @@
 @section('title', 'SEO')
 
 @section('content')
+
+
+
     <div class="card">
+        @if (session('success'))
+            <div class="custom-success-message">
+                {{ session('success') }}
+            </div>
+        @endif
         <div class="card-header">
             <div class="flex justify-between align-center mb-3">
                 <h3 class="card-title">SEO List</h3>
@@ -31,7 +39,8 @@
                             <td>{{ $seo->page_name }}</td>
                             <td>
                                 <a href="{{ route('admin.seo.edit', $seo->id) }}" class="btn btn-sm btn-warning">Edit</a>
-                                <a href="{{ route('admin.seo.destroy', $seo->id) }}" class="btn btn-sm btn-danger">Delete</a>
+                                <a href="{{ route('admin.seo.destroy', $seo->id) }}"
+                                    class="btn btn-sm btn-danger">Delete</a>
                             </td>
                         </tr>
                     @endforeach
@@ -40,4 +49,3 @@
         </div>
     </div>
 @endsection
-

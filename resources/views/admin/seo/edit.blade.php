@@ -30,9 +30,8 @@
                 </div>
                 <div class="form-group">
                     <label for="author">Author</label>
-                    <input type="text" class="form-control" name="author" id="author" placeholder="Enter author"
-                        value="{{ old('author', $seo->author) }}" required>
-                    <span class="text-danger font-12">{{ $errors->first('author') }}</span>
+                    <input type="text" class="form-control" name="author" id="author"
+                        value="{{ old('author', $seo->author) }}" readonly required>
                 </div>
                 <div class="form-group">
                     <label for="page_name">Page Name</label>
@@ -40,7 +39,7 @@
                         <option value="">Select Page Name</option>
                         <option value="home" {{ $seo->page_name == 'home' ? 'selected' : '' }}>Home</option>
                         <option value="about" {{ $seo->page_name == 'about' ? 'selected' : '' }}>About</option>
-                        <option value="contact" {{ $seo->page_name == 'contact' ? 'selected' : '' }}>Contact</option>
+                        <option value="process" {{ $seo->page_name == 'process' ? 'selected' : '' }}>Process</option>
                         <option value="services" {{ $seo->page_name == 'services' ? 'selected' : '' }}>Services</option>
                     </select>
                     <span class="text-danger font-12">{{ $errors->first('page_name') }}</span>

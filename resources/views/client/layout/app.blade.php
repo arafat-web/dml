@@ -7,16 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description"
-        content="DML Worldwide Express Bangladesh Ltd. offers reliable international courier, cargo, freight forwarding, and warehousing services. Ensure timely delivery of your goods with our specialized services.">
-    <meta name="keywords"
-        content="international courier, global freight forwarding, worldwide cargo services, express delivery worldwide, international shipping solutions, global warehousing services, overseas package delivery, courier and logistics services, international parcel delivery, freight and cargo logistics">
+    <meta name="description" content="@yield('description', 'DML Worldwide Express Bangladesh Ltd. offers reliable international courier, cargo, freight forwarding, and warehousing services. Ensure timely delivery of your goods with our specialized services.')">
+    <meta name="keywords" content="@yield('keywords', 'international courier, global freight forwarding, worldwide cargo services, express delivery worldwide, international shipping solutions, global warehousing services, overseas package delivery, courier and logistics services, international parcel delivery, freight and cargo logistics')">
     <meta name="author" content="DML Worldwide Express">
 
     <!-- Open Graph Meta Tags for Facebook -->
-    <meta property="og:title" content="DML Worldwide Express Bangladesh Ltd. - International Courier Services">
-    <meta property="og:description"
-        content="Providing reliable international courier, cargo, freight forwarding, and warehousing services. Ensure timely delivery of your goods with our specialized services.">
+    <meta property="og:title" content="@yield('title', 'DML Worldwide Express Bangladesh Ltd. - International Courier Services')">
+    <meta property="og:description" content="@yield('description', 'Providing reliable international courier, cargo, freight forwarding, and warehousing services. Ensure timely delivery of your goods with our specialized services.')">
     <meta property="og:image" content="assets/imgs/template/logo.png">
     <meta property="og:url" content="https://www.dml.com.bd">
     <meta property="og:type" content="website">
@@ -24,9 +21,8 @@
 
     <!-- Twitter Card Data -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DML Worldwide Express Bangladesh Ltd. - International Courier Services">
-    <meta name="twitter:description"
-        content="Providing reliable international courier, cargo, freight forwarding, and warehousing services. Ensure timely delivery of your goods with our specialized services.">
+    <meta name="twitter:title" content="@yield('title', 'DML Worldwide Express Bangladesh Ltd. - International Courier Services')">
+    <meta name="twitter:description" content="@yield('description', 'Providing reliable international courier, cargo, freight forwarding, and warehousing services. Ensure timely delivery of your goods with our specialized services.')">
     <meta name="twitter:image" content="assets/imgs/template/logo.png">
     <meta name="twitter:site" content="@DMLExpress">
     <meta name="twitter:creator" content="@DMLExpress">

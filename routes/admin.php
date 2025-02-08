@@ -27,10 +27,10 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/', 'index')->name('admin.seo.index');
         Route::get('/create', 'create')->name('admin.seo.create');
         Route::post('/store', 'store')->name('admin.seo.store');
-        Route::get('/edit/{service}', 'edit')->name('admin.seo.edit');
-        Route::post('/update/{service}', 'update')->name('admin.seo.update');
-        Route::get('/show/{service}', 'show')->name('admin.seo.show');
-        Route::post('/destroy/{service}', 'destroy')->name('admin.seo.destroy');
+        Route::get('/edit/{seo}', 'edit')->name('admin.seo.edit');
+        Route::post('/update/{seo}', 'update')->name('admin.seo.update');
+        Route::get('/show/{seo}', 'show')->name('admin.seo.show');
+        Route::get('/destroy/{seo}', 'destroy')->name('admin.seo.destroy');
     });
 
     Route::prefix('contact-info')->controller(ContactInfoController::class)->group(function () {

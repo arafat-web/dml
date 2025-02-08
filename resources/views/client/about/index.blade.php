@@ -1,8 +1,11 @@
 @extends('client.layout.app')
+@section('title', $seoContent->title)
+@section('description', $seoContent->description)
+@section('keywords', $seoContent->keywords)
 
 @section('content')
-    <section class="section">
-        <div class="container">
+    <section class="section d-block position-relative">
+        <div class="box">
             <div class="box-pageheader-1 text-center">
                 <span class="btn btn-tag wow animate__ animate__fadeIn animated"
                     style="visibility: visible; animation-name: fadeIn;">Who We Are</span>

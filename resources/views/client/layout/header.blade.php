@@ -9,20 +9,20 @@
                             d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z">
                         </path>
                     </svg>
-                    Phone: +880 1761 740 478 (Any time 24/7)
+                    Phone: {{ $contactInfo->phone }} (Any time 24/7)
                 </a>
-                <a class="email-icon" href="mailto:support@dml.com.bd">
+                <a class="email-icon" href="mailto:{{ $contactInfo->email }}">
                     <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75">
                         </path>
                     </svg>
-                    support@dml.com.bd
+                    Email: {{ $contactInfo->email }}
                 </a>
             </div>
             <div class="col-lg-5 col-md-4 col-sm-7 col-8 text-end">
-                <a class="icon-socials icon-twitter2" href="#">
+                <a class="icon-socials icon-twitter2" href="{{ $contactInfo->twitter }}">
                     <svg class="bi bi-twitter" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
                         fill="" viewbox="0 0 16 16">
                         <path
@@ -30,14 +30,14 @@
                         </path>
                     </svg>
                 </a>
-                <a class="icon-socials icon-facebook2" href="#">
+                <a class="icon-socials icon-facebook2" href="{{ $contactInfo->facebook }}">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 24 24">
                         <path
                             d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
                         </path>
                     </svg>
                 </a>
-                <a class="icon-socials icon-instagram2" href="#">
+                <a class="icon-socials icon-instagram2" href="{{ $contactInfo->instagram }}">
                     <svg class="bi bi-instagram" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
                         viewbox="0 0 24 24">
                         <path
@@ -45,11 +45,11 @@
                         </path>
                     </svg>
                 </a>
-                <a class="icon-socials icon-youtube2" href="#">
-                    <svg class="bi bi-youtube" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                <a class="icon-socials icon-youtube2" href="{{ $contactInfo->youtube }}">
+                    <svg class="bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
                         viewbox="0 0 24 24">
                         <path
-                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                            d="M22.25 6.187c-1.118 0-2.035.93-2.035 2.063v10.875c0 1.133.917 2.063 2.035 2.063h1.75c1.118 0 2.035-.93 2.035-2.063V8.25c0-1.133-.917-2.063-2.035-2.063h-1.75zm-11.5 10.875h-4.5v-7.5h4.5v7.5zm-3.25-3.125h-2.5v-2h2.5v2zm-4.5-5.25h-2.5v-2h2.5v2zm3.25 3.125h-2.5v-2h2.5v2z">
                         </path>
                     </svg>
                 </a>

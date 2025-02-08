@@ -1,4 +1,7 @@
 @extends('client.layout.app')
+@section('title', $seoContent->title)
+@section('description', $seoContent->description)
+@section('keywords', $seoContent->keywords)
 
 @section('content')
     <section class="section d-block">

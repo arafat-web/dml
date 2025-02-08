@@ -1,6 +1,7 @@
 @extends('client.layout.app')
 
-@section('title', 'Track Package - ' . $trackNumber)
+@section('title', "Track Package - {{ $trackNumber }}")
+
 
 @section('content')
     <section class="section d-block pt-5">
