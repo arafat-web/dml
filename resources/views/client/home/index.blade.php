@@ -1,7 +1,7 @@
 @extends('client.layout.app')
-@section('title', $seoContent->title)
-@section('description', $seoContent->description)
-@section('keywords', $seoContent->keywords)
+@section('title', $seoContent->title ?? 'Home')
+@section('description', $seoContent->description ?? 'Home')
+@section('keywords', $seoContent->keywords ?? 'Home')
 
 @section('content')
     <section class="section d-block">
@@ -123,7 +123,7 @@
                         agency. We are the best at our trans-portation service ever.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 mb-30 text-md-end text-start"><a class="btn btn-brand-1 hover-up"
-                        href="#">
+                        href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd.">
                         <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -138,14 +138,15 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/delivery.png')}}" alt="DML Express">
+                            <div class="card-image"><img src="{{ asset('client/imgs/page/homepage1/delivery.png') }}"
+                                    alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Worldwide Express</h5>
                                 <p class="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                     more than 12 years
                                     of experience and have shipped more than 100k shipments.</p>
-                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2">View
+                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2" href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd.">View
                                         Details<span>
                                             <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor"
                                                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -159,14 +160,15 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/plane.png')}}" alt="DML Express">
+                            <div class="card-image"><img src="{{ asset('client/imgs/page/homepage1/plane.png') }}"
+                                    alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Air Freight Forwarding</h5>
                                 <p class="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                     more than 12 years
                                     of experience and have shipped more than 100k shipments.</p>
-                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2">View
+                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2" href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd.">View
                                         Details<span>
                                             <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor"
                                                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -180,14 +182,14 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/cargo-ship.png')}}"
+                            <div class="card-image"><img src="{{ asset('client/imgs/page/homepage1/cargo-ship.png') }}"
                                     alt="DML Express"></div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Ocean Freight</h5>
                                 <p class="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                     more than 12 years
                                     of experience and have shipped more than 100k shipments.</p>
-                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2">View
+                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2" href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd.">View
                                         Details<span>
                                             <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor"
                                                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -201,14 +203,15 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/forklift.png')}}" alt="DML Express">
+                            <div class="card-image"><img src="{{ asset('client/imgs/page/homepage1/forklift.png') }}"
+                                    alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Warehouse &amp; Distribution</h5>
                                 <p class="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                     more than 12 years
                                     of experience and have shipped more than 100k shipments.</p>
-                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2">View
+                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2" href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd.">View
                                         Details<span>
                                             <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor"
                                                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -222,14 +225,15 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/train.png')}}" alt="DML Express">
+                            <div class="card-image"><img src="{{ asset('client/imgs/page/homepage1/train.png') }}"
+                                    alt="DML Express">
                             </div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Road Freight</h5>
                                 <p class="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                     more than 12 years
                                     of experience and have shipped more than 100k shipments.</p>
-                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2">View
+                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2" href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd.">View
                                         Details<span>
                                             <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor"
                                                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -243,14 +247,14 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                         <div class="card-offer hover-up">
-                            <div class="card-image"><img src="{{asset('client/imgs/page/homepage1/worldwide.png')}}"
+                            <div class="card-image"><img src="{{ asset('client/imgs/page/homepage1/worldwide.png') }}"
                                     alt="DML Express"></div>
                             <div class="card-info">
                                 <h5 class="color-brand-2 mb-15">Customs Clearance</h5>
                                 <p class="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                     more than 12 years
                                     of experience and have shipped more than 100k shipments.</p>
-                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2">View
+                                <div class="box-button-offer mb-30"><a class="btn btn-link font-sm color-brand-2" href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd.">View
                                         Details<span>
                                             <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor"
                                                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -739,7 +743,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="cardLeadingCompany">
                         <div class="cardImage"><span class="img"><img src="{{asset('client/imgs/page/homepage1/company.png')}}"
                                     alt="DML Express"></span></div>
@@ -752,7 +756,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box-form-contact-leading">
+            {{-- <div class="box-form-contact-leading">
                 <div class="row">
                     <div class="col-lg-8">
                         <h2 class="title-favicon color-brand-2 mb-15">Calculate Shipping</h2>
@@ -871,7 +875,7 @@
                                 alt="DML Express"></div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
     <section class="section pt-80 mb-70 bg-faqs">
@@ -902,101 +906,60 @@
                                 <h5 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button text-heading-5" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">How can I return
-                                        an item purchased online?</button>
+                                        aria-controls="collapseTwo">How do I track my shipment?</button>
                                 </h5>
                                 <div class="accordion-collapse collapse show" id="collapseTwo"
                                     aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Contrary to popular belief, Lorem Ipsum is not
-                                        simply random text. It
-                                        has roots in a piece of classical Latin literature Id pro doctus mediocrem
-                                        erroribus, diam nostro
-                                        sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii
-                                        his, pri cu epicuri
-                                        perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex
-                                        illum officiis id.
-                                    </div>
+                                    <div class="accordion-body">To track your shipment, use the tracking number provided in your shipment confirmation email. Enter the tracking number on our website under the 'Track Shipment' section.</div>
                                 </div>
                             </div>
                             <div class="accordion-item wow animate__animated animate__fadeIn">
                                 <h5 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button text-heading-5 collapsed text-heading-5 type="
+                                    <button class="accordion-button text-heading-5 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseThree">Can I cancel or
-                                        change my order?</button>
+                                        aria-expanded="false" aria-controls="collapseThree">Can I change the delivery address after dispatch?</button>
                                 </h5>
                                 <div class="accordion-collapse collapse" id="collapseThree"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Aut architecto consequatur sit error nemo sed
-                                        dolorum suscipit 33
-                                        impedit dignissimos ut velit blanditiis qui quos magni id dolore
-                                        dignissimos. Sit ipsa consectetur
-                                        et sint harum et dicta consequuntur id cupiditate perferendis qui quisquam
-                                        enim. Vel autem illo id
-                                        error excepturi est dolorum voluptas qui maxime consequatur et culpa
-                                        quibusdam in iusto vero sit
-                                        amet Quis.</div>
+                                    <div class="accordion-body">Yes, you can change the delivery address before the parcel is out for delivery. Contact our customer support for assistance with changing the address.</div>
                                 </div>
                             </div>
                             <div class="accordion-item wow animate__animated animate__fadeIn">
                                 <h5 class="accordion-header" id="headingFour">
                                     <button class="accordion-button text-heading-5 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">I have
-                                        promotional or discount code?</button>
+                                        aria-controls="collapseFour">What should I do if my package is delayed?</button>
                                 </h5>
                                 <div class="accordion-collapse collapse" id="collapseFour"
                                     aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Eos nostrum aperiam ab enim quas sit voluptate
-                                        fuga. Ea aperiam voluptas
-                                        a accusantium similique 33 alias sapiente non vitae repellat et dolorum
-                                        omnis eos beatae
-                                        praesentium id sunt corporis. Aut nisi blanditiis aut corrupti quae et
-                                        accusantium doloribus sed
-                                        tempore libero a dolorum beatae.</div>
+                                    <div class="accordion-body">If your package is delayed, please check the tracking status online. If you need further assistance, contact our customer support for an update on your shipment.</div>
                                 </div>
                             </div>
                             <div class="accordion-item wow animate__animated animate__fadeIn">
                                 <h5 class="accordion-header" id="headingFive">
                                     <button class="accordion-button text-heading-5 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                                        aria-controls="collapseFive">What are the
-                                        delivery types you use?</button>
+                                        aria-controls="collapseFive">What are the available delivery options?</button>
                                 </h5>
                                 <div class="accordion-collapse collapse" id="collapseFive"
                                     aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Et beatae quae ex minima porro aut nihil quia sed
-                                        optio dignissimos et
-                                        voluptates deleniti et nesciunt veritatis et suscipit quod. Est sint
-                                        voluptate id unde nesciunt
-                                        non deleniti debitis. Ut dolores tempore vel placeat nemo quo enim
-                                        reprehenderit eos corrupti
-                                        maiores et minima quaerat. Quo sequi eaque eum similique sint et autem
-                                        perspiciatis cum Quis
-                                        exercitationem quo quos excepturi non ducimus ducimus eos natus velit.</div>
+                                    <div class="accordion-body">We offer various delivery options including standard, express, and same-day delivery. Please choose your preferred option at the time of booking.</div>
                                 </div>
                             </div>
                             <div class="accordion-item wow animate__animated animate__fadeIn">
                                 <h5 class="accordion-header" id="headingSix">
                                     <button class="accordion-button text-heading-5 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                                        aria-controls="collapseSix">How can I pay for
-                                        my purchases?</button>
+                                        aria-controls="collapseSix">How can I ensure the safety of my package?</button>
                                 </h5>
                                 <div class="accordion-collapse collapse" id="collapseSix" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Qui quas itaque ut molestias culpa vel culpa
-                                        voluptas eos fugit sint ex
-                                        veritatis totam cum unde maxime! Qui eius fugiat qui veritatis cumque a
-                                        nesciunt nemo. Id numquam
-                                        rerum est molestiae quia ut nisi architecto a officiis itaque eum quod
-                                        repellat ut dolorem dolorem
-                                        aut ipsam ipsa.</div>
+                                    <div class="accordion-body">To ensure the safety of your package, use appropriate packaging materials and label it correctly. You can also opt for additional insurance for valuable items.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="line-border mt-50 mb-50"></div>
-                        <h3 class="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
+                        <h3 class="color-brand-2 wow animate__animated animate__fadeIn">Need more help?</h3>
                         <div class="mt-20"><a class="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn"
                                 href="contact.html">Contact Us</a><a
                                 class="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn
@@ -1032,7 +995,7 @@
             </div>
         </div>
     </section>
-    <section class="section mt-110">
+    {{-- <section class="section mt-110">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-8">
@@ -1153,7 +1116,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <div class="section bg-map d-block">
         <div class="container">
             <div class="box-map">

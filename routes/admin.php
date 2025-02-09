@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\ContactInfoController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\SeoController;
 use App\Http\Controllers\Admin\ServiceController;
+use App\Http\Controllers\Admin\StatisticsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/admin/login', [AuthController::class, 'login'])->name('login');
@@ -36,5 +37,9 @@ Route::middleware(['auth'])->group(function () {
     Route::prefix('contact-info')->controller(ContactInfoController::class)->group(function () {
         Route::get('/', 'index')->name('admin.contact-info.index');
         Route::post('/update/{contactInfo}', 'update')->name('admin.contact-info.update');
+    });
+
+    Route::prefix('statistics')->controller(StatisticsController::class)->group(function () {
+        Route::get('/', 'index')->name('admin.statistics.index');
     });
 });

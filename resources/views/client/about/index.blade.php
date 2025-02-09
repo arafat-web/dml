@@ -1,7 +1,7 @@
 @extends('client.layout.app')
-@section('title', $seoContent->title)
-@section('description', $seoContent->description)
-@section('keywords', $seoContent->keywords)
+@section('title', $seoContent->title ?? 'About Us')
+@section('description', $seoContent->description ?? 'About Us')
+@section('keywords', $seoContent->keywords ?? 'About Us')
 
 @section('content')
     <section class="section d-block position-relative">
@@ -12,13 +12,48 @@
                 <h2 class="color-brand-1 mt-15 mb-10 wow animate__ animate__fadeIn animated"
                     style="visibility: visible; animation-name: fadeIn;">About Us</h2>
                 <p class="font-md color-white wow animate__ animate__fadeIn animated"
-                    style="visibility: visible; animation-name: fadeIn;">We have been pioneering the industry in Bangladesh for
+                    style="visibility: visible; animation-name: fadeIn;">We have been pioneering the industry in Bangladesh
+                    for
                     12 years, and delivering value<br class="d-none d-lg-block">products within given timeframe, every single
                     time.
                 </p>
             </div>
         </div>
     </section>
+    {{-- about --}}
+    <section class="section mt-100 mb-50">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-sm-12 position-relative mb-30">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 col-md-12 col-sm-12 ">
+                            <img class="wow animate__ animate__fadeIn animated"
+                                src="{{ asset('client/imgs/page/about/img-about-1-3.png') }}" alt="DML Express"
+                                style="visibility: visible; animation-name: fadeIn;">
+                                <p class="font-md color-grey-900 mt-10 wow animate__ animate__fadeIn animated text-center" style="visibility: visible; animation-name: fadeIn;">John Doe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-sm-12 mb-30">
+                    <h2 class="color-brand-2 mb-25 wow animate__ animate__fadeIn animated"
+                        style="visibility: visible; animation-name: fadeIn;">
+                        Managing Director's Message
+                    </h2>
+                    <p class="font-md color-grey-900 mb-20 wow animate__ animate__fadeIn animated"
+                        style="visibility: visible; animation-name: fadeIn;">
+                        At Logistic Transp, we are committed to providing our clients with exceptional transportation
+                        services that meet and exceed their expectations. We have built our reputation on delivering
+                        reliable, efficient, and cost-effective transportation solutions to businesses across different
+                        industries. Our team of experienced professionals is dedicated to ensuring that your shipments
+                        arrive on time and in perfect condition. We take pride in our ability to simplify complex shipping
+                        challenges with innovative solutions that help our clients succeed in today's competitive
+                        marketplace.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- about --}}
     <section class="section mt-100 mb-50">
         <div class="container">
             <div class="row align-items-center">
@@ -41,13 +76,13 @@
                 <div class="col-lg-6 position-relative mb-30">
                     <div class="row align-items-end">
                         <div class="col-lg-5 col-md-5 col-sm-5"><img class="mb-20 wow animate__ animate__fadeIn animated"
-                                src="{{asset("client/imgs/page/about/img-about-1-1.png")}}" alt="DML Express"
+                                src="{{ asset('client/imgs/page/about/img-about-1-1.png') }}" alt="DML Express"
                                 style="visibility: visible; animation-name: fadeIn;"><img
                                 class="wow animate__ animate__fadeIn animated"
-                                src="{{asset("client/imgs/page/about/img-about-1-2.png")}}" alt="DML Express"
+                                src="{{ asset('client/imgs/page/about/img-about-1-2.png') }}" alt="DML Express"
                                 style="visibility: visible; animation-name: fadeIn;"></div>
                         <div class="col-lg-7 col-md-7 col-sm-7"><img class="wow animate__ animate__fadeIn animated"
-                                src="{{asset("client/imgs/page/about/img-about-1-3.png")}}" alt="DML Express"
+                                src="{{ asset('client/imgs/page/about/img-about-1-3.png') }}" alt="DML Express"
                                 style="visibility: visible; animation-name: fadeIn;"></div>
                     </div>
                     <div class="quote-center shape-2"></div>
@@ -59,7 +94,7 @@
         <div class="container">
             <div class="row align-items-center item-about-2">
                 <div class="col-lg-6"><img class="wow animate__ animate__fadeIn animated"
-                        src="{{asset("client/imgs/page/about/img-about-2-1.png")}}" alt="DML Express"
+                        src="{{ asset('client/imgs/page/about/img-about-2-1.png') }}" alt="DML Express"
                         style="visibility: visible; animation-name: fadeIn;"></div>
                 <div class="col-lg-6">
                     <div class="box-info-aabout-2">
@@ -115,8 +150,8 @@
                             <a class="btn btn-link-medium wow animate__ animate__fadeIn animated" href="#"
                                 style="visibility: visible; animation-name: fadeIn;">
                                 Learn More
-                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                 </svg>
@@ -125,12 +160,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6"><img class="wow animate__ animate__fadeIn animated"
-                        src="{{asset("client/imgs/page/about/img-about-2-2.png")}}" alt="DML Express"
+                        src="{{ asset('client/imgs/page/about/img-about-2-2.png') }}" alt="DML Express"
                         style="visibility: visible; animation-name: fadeIn;"></div>
             </div>
             <div class="row align-items-center item-about-2">
                 <div class="col-lg-6"><img class="wow animate__ animate__fadeIn animated"
-                        src="{{asset("client/imgs/page/about/img-about-2-3.png")}}" alt="DML Express"
+                        src="{{ asset('client/imgs/page/about/img-about-2-3.png') }}" alt="DML Express"
                         style="visibility: visible; animation-name: fadeIn;"></div>
                 <div class="col-lg-6">
                     <div class="box-info-aabout-2">

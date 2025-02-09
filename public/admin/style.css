@@ -23,6 +23,10 @@ body {
     line-height: 1.6;
 }
 
+a{
+    text-decoration: none !important;
+    color: var(--primary-color);
+}
 /* MISC */
 /* Padding classes */
 .p-0 {

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{ asset('admin/style.css') }}">
     @stack('styles')
 </head>
+
 <body>
     @include('admin.layout.sidebar')
     <div class='main-body'>

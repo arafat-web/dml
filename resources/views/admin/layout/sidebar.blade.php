@@ -25,7 +25,7 @@
                 <i class='fas fa-info-circle'></i>S.E.O
             </li>
         </a>
-        <a href="analytics.html">
+        <a href="#">
             <li class='nav-item'>
                 <i class='fas fa-info-circle'></i>About Us
             </li>
@@ -35,12 +35,12 @@
                 <i class='fas fa-address-book'></i> Contact & Social
             </li>
         </a>
-        <a href="contact-social-media.html">
-            <li class='nav-item'>
+        <a href="{{ route('admin.statistics.index') }}">
+            <li class='nav-item {{ request()->routeIs('admin.statistics.index') ? 'active' : '' }}'>
                 <i class='fas fa-chart-bar'></i> Statistics
             </li>
         </a>
-        <a href="settings.html">
+        <a href="#">
             <li class='nav-item'>
                 <i class='fas fa-cog'></i>Settings
             </li>

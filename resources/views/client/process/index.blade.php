@@ -1,7 +1,7 @@
 @extends('client.layout.app')
-@section('title', $seoContent->title)
-@section('description', $seoContent->description)
-@section('keywords', $seoContent->keywords)
+@section('title', $seoContent->title ?? 'Process')
+@section('description', $seoContent->description ?? 'Process')
+@section('keywords', $seoContent->keywords ?? 'Process')
 
 @section('content')
     <section class="section d-block position-relative">

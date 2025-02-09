@@ -34,7 +34,34 @@
     <!-- Favicon and Stylesheets -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('client/imgs/template/logo.png') }}">
     <link href="{{ asset('client/css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <meta name="google-site-verification" content="YWCsjbS7Z3JctQp_ktZFv1JBHPNavvLkihpeRQxIjqY" />
+    <style>
+        .active {
+            border-bottom: 2px solid #fbb72c;
+            color: #fbb72c;
+        }
+
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-float {
+            margin: 16px auto;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -53,6 +80,11 @@
         @yield('content')
     </main>
 
+    <a href="https://api.whatsapp.com/send?phone={{ $contactInfo->whatsapp }}&text=Hi%21%20I%20need%20more%20information%20about%20DML%20Worldwide%20Express%20Bangladesh%20Ltd."
+        class="float" target="_blank">
+        <i class="bi bi-whatsapp my-float"></i>
+    </a>
+
     @include('client.layout.footer')
 
     <script src="{{ asset('client/js/vendors/modernizr-3.6.0.min.js') }}"></script>
@@ -65,7 +97,7 @@
     <script src="{{ asset('client/js/vendors/perfect-scrollbar.min.js') }}"></script>
     <script src="{{ asset('client/js/vendors/select2.min.js') }}"></script>
     <script src="{{ asset('client/js/vendors/isotope.js') }}"></script>
-    <script src="{{ asset('client/js/vendors/scrollup.js') }}"></script>
+    {{-- <script src="{{ asset('client/js/vendors/scrollup.js') }}"></script> --}}
     <script src="{{ asset('client/js/vendors/swiper-bundle.min.js') }}"></script>
     <script src="{{ asset('client/js/vendors/noUISlider.js') }}"></script>
     <script src="{{ asset('client/js/vendors/slider.js') }}"></script>
